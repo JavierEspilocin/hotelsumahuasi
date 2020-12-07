@@ -1,0 +1,67 @@
+body{
+    background: url(fondo1.jpg);
+}
+
+h2 {
+  color: #F5B041;
+  text-shadow: 2px 2px 2px #000;
+}
+
+
+header{
+      /* width: 100%;
+      height: 50px; */
+      background: rgb(36,14,0);
+      background: linear-gradient(90deg, rgba(36,14,0,1) 0%, rgba(135,26,26,0.9747910610465116) 49%, rgba(255,96,0,0.9195585029069767) 100%);
+      font-family: Copperplate Gothic Light, cursive, Arial, Helvetica, sans-serif;
+      font-size: 25px ;
+      /* position: fixed; 
+      top: 0;
+      left: 0;
+      z-index: 100; */
+
+}
+.menu li{
+	border-right: 2px solid #fff;
+} 
+p {
+	text-align: center;
+	text-align: justify;
+	margin: 10px;
+  padding: 5px;
+  font-weight: 600;
+}
+#banner{
+	margin-top: 0px;
+	position: relative;
+	text-shadow: 1px 1px 1px #000;
+	}
+
+ #banner img{
+	
+	top: 25px;
+	width: 70%; 
+    height: 70%;
+    margin: 15%;
+}
+#banner .contenedor{
+	position: absolute;
+	margin-top: 10px;
+	top: 50%; left: 40%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+}
+
+#banner h2{ 
+	font-size: 26px;
+	margin-top: 20px;
+ }
+#banner a{
+	display: block;
+	width: 120px; color: #6E2C00;
+	text-decoration: none;
+	background: #F5B041;
+	padding: 7px; margin-top: 10px;
+	border: 3px solid #fff;
+}
